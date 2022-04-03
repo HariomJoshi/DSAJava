@@ -14,7 +14,8 @@ public class quickSortRec{
             return;
         }
 
-        // we take the different variables because, when the program runs it will alter the variables. 
+        // we take the different variables because, when the program runs it will alter the variables
+        // and we will not be able to use them in recursion 
 
         int s = l;
         int e = h;
