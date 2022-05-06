@@ -19,7 +19,7 @@ class recMergeSort{
         return merge(left, right);
 
     }
-
+    // the below code is to just merge 2 sorted array in such a way that the resultant is also a sorted array.
     public static int[] merge(int[] arr1, int [] arr2){
         int[] mergedArray = new int[arr1.length + arr2.length];
         int a = 0; 

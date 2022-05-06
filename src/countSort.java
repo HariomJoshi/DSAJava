@@ -1,11 +1,10 @@
 import java.util.Arrays;
 
-
 public class countSort {
     public static void main(String[] args){
         int[] arr = {5,8,4,3,8,5,4,8,3};
         System.out.println(Arrays.toString(sorting(arr)));
-
+        
     }
 
     public static int[] sorting(int[] arr){
